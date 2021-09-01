@@ -9,7 +9,6 @@ class MadLibs:
   def __repr__(self):
     return None
     
-  @property
   def mad_lib1():
     first = input("Enter first word(This is should be an adjective): ")
     second = input("Enter second word (This is should be a plural nonun): ")
