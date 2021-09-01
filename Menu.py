@@ -9,9 +9,9 @@ def menu():
   time.sleep(5)
   print('Please choose your Madlib Category')
   time.sleep(3)
-  user_input = input( ' 1. Theme Park\n 2. Zoo Trip\n 3. Arcade Trip\n 4. First Day of School ')
+  user_input = input( ' 1. Theme Park\n 2. Zoo Trip\n 3. Arcade Trip\n 4. First Day of School\n 5. To Exit Game\n ')
 
-  while user_input != 'q':
+  while user_input:
     if user_input == '1':
       MadLibs.mad_lib1()
 
@@ -22,15 +22,14 @@ def menu():
     elif user_input == '4':
       break
     
-    elif user_input == 'q':
+    elif user_input == '5':
       print('Terminating program')
+      break
   
 
     else: 
       print('Not a valid choice!')
-      break
-
-  menu()
+      menu()
 
 
 

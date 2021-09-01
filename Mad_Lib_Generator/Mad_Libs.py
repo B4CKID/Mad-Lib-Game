@@ -20,7 +20,7 @@ class MadLibs:
     eighth = input("Enter eighth word (This is should be an past tense verb): ")
     ninth = input("Enter ninth word (This is should be an adverb): ")
     tenth = input("Enter tenth word (This is should be an adjective): ")
-    for libs in mlb1:# Maybe use if statements
+    for libs in Mads.mlb1:# Maybe use if statements
       new_libs = libs.replace("1", first)
       new_libs = new_libs.replace("2",second)
       new_libs = new_libs.replace ("3", third)
@@ -30,11 +30,11 @@ class MadLibs:
       new_libs = new_libs.replace ("7", seventh)
       new_libs = new_libs.replace ("8", eighth)
       new_libs = new_libs.replace ("9", ninth)
-      new_libs = new_libs.replace ("10", tenth)
-      print(new_libs)
+      new_libs = new_libs.replace ("*", tenth)
+      return new_libs
 
     def mad_lib2():
       return None
       
-  def mad_gen():
+    def mad_gen():
       return None
