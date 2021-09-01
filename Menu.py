@@ -13,7 +13,7 @@ def menu():
 
   while user_input != 'q':
     if user_input == '1':
-      mad_lib1()
+      MadLibs.mad_lib1()
 
     elif user_input == '2':
       break
