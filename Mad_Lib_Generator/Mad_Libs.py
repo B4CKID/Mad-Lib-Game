@@ -31,7 +31,7 @@ class MadLibs:
       new_libs = new_libs.replace ("8", eighth)
       new_libs = new_libs.replace ("9", ninth)
       new_libs = new_libs.replace ("*", tenth)
-      return new_libs
+      print(new_libs)
 
     def mad_lib2():
       return None

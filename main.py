@@ -1,6 +1,6 @@
-from Menu import menu
+from Menu import Menues
 
-menu()
+Menues.menu()
 
 
 
