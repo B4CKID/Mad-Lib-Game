@@ -1,4 +1,4 @@
-from Mad_Lib_Storage.Madlib_Text import mlb1
+from Mad_Lib_Storage.Madlib_Text import Mads
 
 
 class MadLibs:
@@ -7,8 +7,9 @@ class MadLibs:
     return None
 
   def __repr__(self):
-    return new_libs
-
+    return None
+    
+  @property
   def mad_lib1():
     first = input("Enter first word(This is should be an adjective): ")
     second = input("Enter second word (This is should be a plural nonun): ")
@@ -33,3 +34,8 @@ class MadLibs:
       new_libs = new_libs.replace ("10", tenth)
       print(new_libs)
 
+    def mad_lib2():
+      return None
+      
+  def mad_gen():
+      return None
