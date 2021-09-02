@@ -1,3 +1,6 @@
+import time
+
+from funcs import *
 from Mad_Lib_Storage.Madlib_Text import Mads
 
 
@@ -20,6 +23,8 @@ class MadLibs:
     eighth = input("Enter eighth word (This is should be an past tense verb): ")
     ninth = input("Enter ninth word (This is should be an adverb): ")
     tenth = input("Enter tenth word (This is should be an adjective): ")
+    time.sleep(3)
+    clear()
     for libs in Mads.mlb1:# Maybe use if statements
       new_libs = libs.replace("1", first)
       new_libs = new_libs.replace("2",second)
@@ -32,7 +37,7 @@ class MadLibs:
       new_libs = new_libs.replace ("9", ninth)
       new_libs = new_libs.replace ("*", tenth)
       print(new_libs)
-
+    
     def mad_lib2():
       return None
       
