@@ -19,10 +19,13 @@ class Menues:
         break
 
       elif user_input == '2':
+        MadLibs.mad_lib2()
         break
       elif user_input == '3':
-        break 
+        MadLibs.mad_lib3()
+        break
       elif user_input == '4':
+        MadLibs.mad_lib4()
         break
       
       elif user_input == '5':
